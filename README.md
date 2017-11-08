@@ -30,8 +30,17 @@ Code it so that the user is nofified if they get the answer right or wrong.
 
 Create a SettingsViewController with 2 segmentedControlls and another pickerView to allow the user to filter the results by difficulty, type and category.
 
-
+![](https://stackoverflow.com/questions/31278365/missing-navigation-bar-after-navigating-from-search-controller)
 
 Create Settings Class with static variables that will save your currentSettings.
 
 Have your Settings update when the user selects 
+
+
+### Step 4
+
+Add a Statistics class with static variables that keep track of right and wrong answers. 
+
+Create a custom TableViewCell so that all of the question is displayed and not cut off.
+
+
