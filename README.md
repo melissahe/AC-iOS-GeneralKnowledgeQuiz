@@ -17,7 +17,10 @@ Create a tableView and populate it with the Questions.
 
 Create a detailViewController with a label and a pickerView. The label for the question and the picker view for the possible answers.
 
-Checkout this little tutorial on UIPickerView 
+Checkout this little tutorial on UIPickerView
+
 http://sourcefreeze.com/ios-uipickerview-example-using-swift/
 
 Code it so that the user is nofified if they get the answer right or wrong.
+
+![](https://media.giphy.com/media/d30oJYveOWlWXzAk/giphy.gif)
