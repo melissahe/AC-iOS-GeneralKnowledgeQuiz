@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		DE13628C1FB2488400D54C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13628B1FB2488400D54C7B /* AppDelegate.swift */; };
-		DE13628E1FB2488400D54C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13628D1FB2488400D54C7B /* ViewController.swift */; };
 		DE1362911FB2488400D54C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE13628F1FB2488400D54C7B /* Main.storyboard */; };
 		DE1362931FB2488400D54C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1362921FB2488400D54C7B /* Assets.xcassets */; };
 		DE1362961FB2488400D54C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1362941FB2488400D54C7B /* LaunchScreen.storyboard */; };
 		DE13629E1FB24A5000D54C7B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13629D1FB24A5000D54C7B /* Question.swift */; };
+		DE1362A01FB355B100D54C7B /* QuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13629F1FB355B100D54C7B /* QuestionTableViewController.swift */; };
+		DE1362A21FB3566300D54C7B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1362A11FB3566300D54C7B /* SettingsViewController.swift */; };
+		DE1362A41FB3575600D54C7B /* QuestionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1362A31FB3575600D54C7B /* QuestionDetailViewController.swift */; };
+		DE1362A71FB3589100D54C7B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1362A61FB3589100D54C7B /* Settings.swift */; };
+		DE1362AA1FB3634700D54C7B /* Sequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1362A91FB3634700D54C7B /* Sequence+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE1362881FB2488400D54C7B /* AC-iOS-GeneralKnowledgeQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-GeneralKnowledgeQuiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE13628B1FB2488400D54C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE13628D1FB2488400D54C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE1362901FB2488400D54C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE1362921FB2488400D54C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1362951FB2488400D54C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1362971FB2488400D54C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE13629D1FB24A5000D54C7B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DE13629F1FB355B100D54C7B /* QuestionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewController.swift; sourceTree = "<group>"; };
+		DE1362A11FB3566300D54C7B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DE1362A31FB3575600D54C7B /* QuestionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDetailViewController.swift; sourceTree = "<group>"; };
+		DE1362A61FB3589100D54C7B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DE1362A91FB3634700D54C7B /* Sequence+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		DE13628A1FB2488400D54C7B /* AC-iOS-GeneralKnowledgeQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				DE1362A81FB358A400D54C7B /* Model */,
+				DE1362A51FB3575F00D54C7B /* View Controllers */,
 				DE13628B1FB2488400D54C7B /* AppDelegate.swift */,
-				DE13628D1FB2488400D54C7B /* ViewController.swift */,
 				DE13628F1FB2488400D54C7B /* Main.storyboard */,
 				DE1362921FB2488400D54C7B /* Assets.xcassets */,
 				DE1362941FB2488400D54C7B /* LaunchScreen.storyboard */,
 				DE1362971FB2488400D54C7B /* Info.plist */,
-				DE13629D1FB24A5000D54C7B /* Question.swift */,
 			);
 			path = "AC-iOS-GeneralKnowledgeQuiz";
+			sourceTree = "<group>";
+		};
+		DE1362A51FB3575F00D54C7B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE13629F1FB355B100D54C7B /* QuestionTableViewController.swift */,
+				DE1362A11FB3566300D54C7B /* SettingsViewController.swift */,
+				DE1362A31FB3575600D54C7B /* QuestionDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DE1362A81FB358A400D54C7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE13629D1FB24A5000D54C7B /* Question.swift */,
+				DE1362A61FB3589100D54C7B /* Settings.swift */,
+				DE1362A91FB3634700D54C7B /* Sequence+Extension.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1362A71FB3589100D54C7B /* Settings.swift in Sources */,
+				DE1362A41FB3575600D54C7B /* QuestionDetailViewController.swift in Sources */,
 				DE13629E1FB24A5000D54C7B /* Question.swift in Sources */,
-				DE13628E1FB2488400D54C7B /* ViewController.swift in Sources */,
+				DE1362A01FB355B100D54C7B /* QuestionTableViewController.swift in Sources */,
+				DE1362AA1FB3634700D54C7B /* Sequence+Extension.swift in Sources */,
 				DE13628C1FB2488400D54C7B /* AppDelegate.swift in Sources */,
+				DE1362A21FB3566300D54C7B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

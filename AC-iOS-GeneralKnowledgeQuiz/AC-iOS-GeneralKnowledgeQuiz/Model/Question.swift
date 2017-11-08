@@ -26,6 +26,17 @@ class Question {
         self.incorrectAnswers = incorrectAnswers
     }
     
+    static var categories: [String] {
+        var categories: [String] = []
+        for q in Question.questions {
+            if !categories.contains(q.category) {
+                categories.append(q.category)
+            }
+        }
+        categories.append("All")
+        return categories
+    }
+    
     static let questions: [Question] = [
         Question(category: "General Knowledge", type: "multiple", difficulty: "hard", question: "Electronic music producer Kygo&#039;s popularity skyrocketed after a certain remix. Which song did he remix?", correctAnswer: "Ed Sheeran - I See Fire", incorrectAnswers: ["Marvin Gaye - Sexual Healing", "Coldplay - Midnight", "a-ha - Take On Me"]),
         Question(category: "General Knowledge", type: "multiple", difficulty: "medium", question: "According to the BBPA, what is the most common pub name in the UK?", correctAnswer: "Red Lion", incorrectAnswers: ["Royal Oak", "White Hart", "King&#039;s Head"]),
