@@ -30,7 +30,7 @@ Code it so that the user is nofified if they get the answer right or wrong.
 
 Create a SettingsViewController with 2 segmentedControlls and another pickerView to allow the user to filter the results by difficulty, type and category.
 
-![](https://stackoverflow.com/questions/31278365/missing-navigation-bar-after-navigating-from-search-controller)
+![](https://media.giphy.com/media/xUOxfaIE7OEDCScFi0/giphy.gif)
 
 Create Settings Class with static variables that will save your currentSettings.
 
